@@ -1,0 +1,228 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.header-container {
+  height: 95px;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.nav {
+  max-width: 500px;
+  width: 100%;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 1.73;
+  letter-spacing: 0.2;
+}
+
+.header-logo {
+  flex-grow: 0;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-size: 36px;
+  letter-spacing:0.2em;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-container a {
+  color: #333333;
+}
+
+.slider-containr {
+}
+
+.slider {
+  width: 100%;
+  max-width: 1600px;
+  height: 710px;
+  margin: 0 auto;
+}
+
+.slider1 {
+  height: 710px;
+  max-width: 1600px;
+  width: 100%;
+  background-color: #f1dfc8;
+  position: relative;
+}
+
+.slider1 h1 {
+  font-family: 'Savoye LET';
+  font-weight: normal;
+  font-size: 186px;
+  line-height: 1;
+  letter-spacing: 0.025ea;
+  transform: rotate(-5.1deg);
+  color: #ffffff;
+  position: absolute;  
+  top: 243px;
+  left: 281px;
+}
+
+.slider1-p-ja {
+  font-family: '小塚ゴシック Pr6N';
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.2em;
+  color: black;
+  position: absolute;
+  top: 390px;
+  left: 487px;
+}
+
+.slider1-p-en {
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  color: black;
+  position: absolute;
+  top: 459px;
+  left: 458px;
+}
+
+.slick-prev{
+  left: 80px;
+  z-index: 100;
+}
+.slick-next{
+  right: 80px;
+  z-index: 100;
+}
+
+.slider1-img-ellipse {
+  position: absolute;
+  top: 49px;
+  left: 977px;
+}
+
+.slider1-img-bar{
+  position: absolute;
+  top: 485px;
+  left: 506px;
+}
+
+.slick-prev:before {
+  position: relative;
+  content: "\f104";
+  font-family: FontAwesome;
+  font-size: 50px;
+  color: #484848;
+}
+
+.slick-next:before {
+  position: relative;
+  content: "\f105";
+  font-family: FontAwesome;
+  font-size: 50px;
+  color: #484848;
+}
+
+.collection-wrapper {
+  margin-top: 123px;
+}
+
+.collection-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.collection-image {
+  max-width: 730px;
+  width: 100%;
+  position: relative;
+}
+
+.collection-image-1 {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  z-index: 1;
+} 
+
+.collection-image-2 {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  z-index: 0;
+} 
+
+.collection-title {
+  max-width: 470px;
+  width: 100%;
+}
+
+.collection-title h2 {
+  margin-top: 50px;
+  margin-left: 80px;
+  font-family: 'Futura';
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.9;
+  letter-spacing: 0.2em;
+  color: #000;
+}
+
+.collection-title h3 {
+  margin-left: 80px;
+  font-family: 'Didot';
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 1.34;
+  letter-spacing: 0.1em;
+}
+
+.collection-title p {
+  margin-left: 80px;
+  font-family: '游明朝体';
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: 0.3em;
+}
+
+.collection-title a {
+  margin-top: 40px;
+  margin-left: 80px;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  text-decoration: underline;
+  display: inline-block;
+  color: #000;
+
+}
